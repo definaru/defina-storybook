@@ -22,6 +22,14 @@
             margin: 0 auto;
             width: 60%;
             text-align: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box {
+            display: grid;
+            gap: 15px;
         }
         .sb {
             display: flex;
@@ -44,7 +52,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <div>
+        <div class="box">
             <div class="sb">
                 <a href="https://storybook.js.org" target="_blank" class="logo" rel="noopener noreferrer">
                     <svg viewBox="0 0 100 20" fill="none" xmlns="http://www.w3.org/2000/svg" role="presentation" class="css-1r6i2mo e1skfx025">
@@ -54,9 +62,11 @@
                     </svg>        
                 </a>            
             </div>
-            <a href="https://github.com/definaru/defina-storybook.git" target="_blank" class="btn" rel="noopener noreferrer">
-                GitHub Repository
-            </a>      
+            <div>
+                <a href="https://github.com/definaru/defina-storybook.git" target="_blank" class="btn" rel="noopener noreferrer">
+                    GitHub Repository
+                </a>                 
+            </div>
             <p>A Storybook documentation of desing system in company Defina</p>              
         </div>
     </div>
